@@ -1,0 +1,87 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+
+# Backup Files
+*.bak
+*.backup
+*_backup.php
+index copy.html
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Cache and Session Files
+cache/
+sessions/
+*.cache
+
+# Upload Directories
+uploads/
+downloads/
+
+# Database Files
+*.sql
+*.db
+
+# Configuration Files (if they contain sensitive data)
+config.php
+database.php
+
+# Composer (if using PHP dependencies)
+vendor/
+composer.lock
+
+# Node Modules (if using frontend build tools)
+node_modules/
+package-lock.json
+
+# Build Output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage Directory
+coverage/
+
+# Dependency Directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env

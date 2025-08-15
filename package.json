@@ -1,0 +1,45 @@
+{
+  "name": "sakerhetstjanster-platform",
+  "version": "1.0.0",
+  "description": "Swedish Bank Customer Service Platform - Professional UI/UX focused development",
+  "main": "index.php",
+  "scripts": {
+    "dev": "php -S localhost:8000",
+    "build": "echo 'No build process required for PHP project'",
+    "test": "echo 'No frontend tests configured'",
+    "lint": "echo 'No linting configured'",
+    "format": "echo 'No formatting configured'"
+  },
+  "keywords": [
+    "banking",
+    "customer-service",
+    "remote-support",
+    "security",
+    "sweden",
+    "php",
+    "ui",
+    "ux",
+    "responsive-design"
+  ],
+  "author": "Jasper Tech Global",
+  "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasper-tech-global/sakerhetstjanster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasper-tech-global/sakerhetstjanster/issues"
+  },
+  "homepage": "https://github.com/jasper-tech-global/sakerhetstjanster#readme",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

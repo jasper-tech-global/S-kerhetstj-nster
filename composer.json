@@ -1,0 +1,46 @@
+{
+    "name": "jasper-tech-global/sakerhetstjanster",
+    "description": "Swedish Bank Customer Service Platform - Secure remote support platform for banking institutions",
+    "type": "project",
+    "keywords": [
+        "banking",
+        "customer-service",
+        "remote-support",
+        "security",
+        "sweden",
+        "php"
+    ],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jasper Tech Global",
+            "email": "info@jaspertechglobal.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sakerhetstjanster\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sakerhetstjanster\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
