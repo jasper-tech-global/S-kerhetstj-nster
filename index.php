@@ -572,7 +572,7 @@
           <li><a href="#om">Om oss</a></li>
           <li><a href="#tjanster">Tjänster</a></li>
           <li><a href="#nedladdning">Nedladdning</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="contact.php">Kontakt</a></li>
         </ul>
       </nav>
     </div>
