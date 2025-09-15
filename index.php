@@ -465,22 +465,24 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 48px;
+      height: 50px;
       width: 120px;
-      filter: grayscale(0.2) brightness(0.95);
-      opacity: 0.9;
+      filter: grayscale(0.15) brightness(0.98);
+      opacity: 0.95;
     }
     .bank-logo img {
-      max-height: 40px;
-      max-width: 100px;
+      max-height: 42px;
+      max-width: 105px;
       width: auto;
       height: auto;
       display: block;
     }
-    /* Make SBAB logo visually larger in the banner */
+    /* Ensure SBAB logo is clear and properly aligned */
     .bank-logo img[src*='SBAB_Logo_09.2024.svg'] {
-      max-height: 80px;
-      max-width: 200px;
+      max-height: 45px;
+      max-width: 110px;
+      filter: grayscale(0.1) brightness(1.05);
+      opacity: 1;
     }
     @keyframes bank-marquee {
       0% { transform: translateX(0); }
