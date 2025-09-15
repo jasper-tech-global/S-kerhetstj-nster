@@ -477,12 +477,12 @@
       height: auto;
       display: block;
     }
-    /* Ensure SBAB logo is clear and properly aligned */
+    /* Ensure SBAB logo fits properly with cropped image */
     .bank-logo img[src*='SBAB_Logo_09.2024.svg'] {
-      max-height: 45px;
-      max-width: 110px;
-      filter: grayscale(0.1) brightness(1.05);
-      opacity: 1;
+      max-height: 42px;
+      max-width: 105px;
+      filter: grayscale(0.15) brightness(0.98);
+      opacity: 0.95;
     }
     @keyframes bank-marquee {
       0% { transform: translateX(0); }
